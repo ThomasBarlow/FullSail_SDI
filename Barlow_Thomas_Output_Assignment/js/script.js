@@ -14,9 +14,15 @@
 
 // This is an example of a string variable
 var myCatName = "Little Miss Kitty Cakes";
+// Here is the output for the string
+console.log(myCatName);
 
 // This is an example of a number variable
 var myCatAge = 1;
+// Here is the output for the number
+console.log(myCatAge);
 
 // This is an example of a Boolean variable
 var isCatFemale = true;
+// Here is the output for the Boolean
+console.log(isCatFemale);
