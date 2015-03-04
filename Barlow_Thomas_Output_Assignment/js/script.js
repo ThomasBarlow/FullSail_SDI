@@ -12,3 +12,5 @@
    Output for each variable
 */
 
+// This is an example of a string variable
+var myCatName = "Little Miss Kitty Cakes";
