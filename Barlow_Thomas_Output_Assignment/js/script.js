@@ -26,3 +26,8 @@ console.log(myCatAge);
 var isCatFemale = true;
 // Here is the output for the Boolean
 console.log(isCatFemale);
+
+// Here is an extra console output combining all the variables
+console.log("I have a cat and her name is \'" + myCatName + "\'.");
+console.log("She is only " + myCatAge + " year old.");
+console.log("It is " + isCatFemale + " she is a female.");
