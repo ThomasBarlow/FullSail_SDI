@@ -14,3 +14,6 @@
 
 // This is an example of a string variable
 var myCatName = "Little Miss Kitty Cakes";
+
+// This is an example of a number variable
+var myCatAge = 1;
