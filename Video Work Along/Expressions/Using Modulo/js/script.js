@@ -1,1 +1,4 @@
-alert("This is in the js file");
+//Expression - Modulo Operator
+
+var remainder = 32 % 10;
+console.log(remainder);
