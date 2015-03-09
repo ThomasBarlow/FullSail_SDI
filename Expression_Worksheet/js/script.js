@@ -60,3 +60,52 @@ function slicesForSparky(pies, slicesPerPie, numberOfPeople) {
 
 // Call the slicesForSparky function
 slicesForSparky(4, 8, 10);
+
+/* Average shopping bill */
+//  Calculate the total amount spent on groceries and the average per week
+//  Givens are an array with five weekly grocery bills
+
+//  Create the grocery array
+var groceries = [50, 100, 75, 75, 50];
+
+//  Create a function for the calculation
+function groceryTotalAndAverage() {
+	// create a variable to hold the groceryTotal
+	var groceryTotal = 0;
+	// create a variable to hold the grocery average
+	var groceryAverage;
+	// create a for loop to add the elements of the array
+	for (var i = 0; i < groceries.length; i++){
+		groceryTotal += groceries[i];
+	};
+	// Calculate the grocery average
+	groceryAverage = groceryTotal / groceries.length;
+	// log the results to the console
+	console.log("You have spent a total of $" + groceryTotal + " on groceries over 5 weeks.  That is an average of $" + groceryAverage + " per week");
+};
+
+// call the groceryTotalAndAverage function
+groceryTotalAndAverage();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
