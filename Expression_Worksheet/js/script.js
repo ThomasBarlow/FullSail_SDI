@@ -87,6 +87,26 @@ function groceryTotalAndAverage() {
 // call the groceryTotalAndAverage function
 groceryTotalAndAverage();
 
+/* Discounts */
+// Calculate discounted price of an item
+
+// Create a function that will calculate the discounted price
+function discountedItemPrice(originalPrice, discount, salesTax, description) {
+	// Create a var that takes the discount amount and multiplys it by .100 to get the percentage amount
+	var discountAmount = (discount * .01) * originalPrice;
+	// create a var that holds the new price based off the calculations
+	var newPrice = originalPrice - discountAmount;
+	//Create a var that takes the salesTax amount and get the percentage
+	var tax = (salesTax * .01) * newPrice;
+	// new var with tax and price
+	var newPriceWithTax = tax + newPrice; 
+	// Log results to the console
+	console.log("Your " + description + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" + newPrice + " without tax, and $" + newPriceWithTax);
+}
+
+// Call the discountedItemPrice function
+discountedItemPrice(20, 25, 6, "Shirt");
+
 
 
 
