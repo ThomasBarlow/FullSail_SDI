@@ -41,3 +41,34 @@ for (var i = 0; i < gradesArray.length; i++) {
 // This operation takes the gradesTotal from the previous loop and divides if by the numberOfGrades entered
 var averageOfGrades = gradesTotal / numberOfGrades;
 
+/* Output */
+
+// Create an output to the console telling the amount of grades entered and the average of the grades
+console.log("You have entered " + numberOfGrades + " grades. The average of these grades is " + averageOfGrades + ".");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
