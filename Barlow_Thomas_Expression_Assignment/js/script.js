@@ -46,6 +46,12 @@ var averageOfGrades = gradesTotal / numberOfGrades;
 // Create an output to the console telling the amount of grades entered and the average of the grades
 console.log("You have entered " + numberOfGrades + " grades. The average of these grades is " + averageOfGrades + ".");
 
+/*
+Tested this code out with multiple values for input.
+To test the math I entered the number 50 four times
+which gave me a total of 200.  The division was correct
+because the average I got from that is 50, which makes sense.
+*/
 
 
 
