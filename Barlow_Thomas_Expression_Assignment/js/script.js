@@ -52,29 +52,3 @@ To test the math I entered the number 50 four times
 which gave me a total of 200.  The division was correct
 because the average I got from that is 50, which makes sense.
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
