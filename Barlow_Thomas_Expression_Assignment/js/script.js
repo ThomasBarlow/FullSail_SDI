@@ -28,3 +28,16 @@ gradesArray[1] = Number(prompt("What is the second grade?"));
 gradesArray[2] = Number(prompt("What is the third grade?"));
 // Prompt 4 that will hold the fourth grade number
 gradesArray[3] = Number(prompt("What is the fourth grade?"));
+
+/* Matmatical Operations */
+
+// Although we did not cover loops yet, it was the fastest and cleanest way to add up all the grades
+// within the array.  This code loops over the array of grades adding each element together
+// and placing that value into the gradesTotal variable
+for (var i = 0; i < gradesArray.length; i++) {
+	gradesTotal += gradesArray[i];
+}
+
+// This operation takes the gradesTotal from the previous loop and divides if by the numberOfGrades entered
+var averageOfGrades = gradesTotal / numberOfGrades;
+
