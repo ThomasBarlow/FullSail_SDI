@@ -18,3 +18,13 @@ var gradesTotal = 0;
 // averageOfGrades will hold the mathmatical output of gradesTotal divided by numberOfGrades
 var averageOfGrades;
 
+/* Promps for user input */
+
+// Prompt 1 that will hold the first grade number
+gradesArray[0] = Number(prompt("What is the first grade?"));
+// Prompt 2 that will hold the second grade number
+gradesArray[1] = Number(prompt("What is the second grade?"));
+// Prompt 3 that will hold the third grade number
+gradesArray[2] = Number(prompt("What is the third grade?"));
+// Prompt 4 that will hold the fourth grade number
+gradesArray[3] = Number(prompt("What is the fourth grade?"));
