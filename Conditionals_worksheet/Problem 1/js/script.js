@@ -1,7 +1,7 @@
 /*
 Thomas Barlow
 March 12, 2015
-Conditionals Worksheet
+Conditionals Worksheet - Problem 1
 */
 
 // Convert a temp to either C or F depending on what the user has entered
@@ -26,3 +26,4 @@ if (type === "C") {
 	newTemp = temp * 9 / 5 + 32;
 	console.log("The temperaure is " + newTemp + " degrees in Fahrenheit.");
 }
+
