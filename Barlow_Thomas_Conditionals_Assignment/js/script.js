@@ -62,23 +62,38 @@ while (angleC === "" || angleC === 0) {
 
 // Do the math for angleD which is 360 - all the other angles added together
 angleD = 360 - (angleA + angleB + angleC);
-console.log(angleD);
 
-
+// This is an example of an else-if statement
+// If all four sides of the quadrilateral are 90
 if (angleA === angleB && angleC === angleD) {
+	// Print out this message
 	console.log("You have a perfect square");
+  // If only angleA is 90
 } else if (angleA === 90) {
+	// Print this
 	console.log("Angle A is a right angle.");
+  // If only angleB is 90
 } else if (angleB === 90) {
+	// Print this
 	console.log("Angle B is a right angle.");
+  // if only angleC is 90
 } else if (angleC === 90) {
+	// Print this
 	console.log("Angle C is a right angle.");
+  // If only angleD is 90
 } else if (angleD === 90) {
+	// Print this
 	console.log("Angle D is a right angle.");
+  // If no angles are 90
+} else {
+	// Print this
+	console.log("You have angles of 90 so no square or right angles...");
 }
 
+// Final print out to the user showing the information
 
-console.log(angleA + " " + angleB + " " + angleC);
+console.log(timeOfDayMessage + " after gathering your input and doing some math, the value of your fourth angle is " + angleD + ".");
+
 
 
 
