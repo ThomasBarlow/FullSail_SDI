@@ -29,7 +29,7 @@ var timeOfDayMessage = "";
 
 // Prompt the user for the input
 // First ask for their name with an while statement in case the user entered an empty string
-name = prompt("Please enter your first name: ")
+name = prompt("Please enter you first name.")
 // Validation while Loop
 while (name === "") {
 	// prompt for the user
@@ -87,7 +87,7 @@ if (angleA === angleB && angleC === angleD) {
   // If no angles are 90
 } else {
 	// Print this
-	console.log("You have angles of 90 so no square or right angles...");
+	console.log("You have no angles at 90 so no square or right angles...");
 }
 
 // Final print out to the user showing the information
