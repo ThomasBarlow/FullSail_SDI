@@ -19,7 +19,7 @@ var angleC = "";
 var angleD = 0;
 
 // Since we need to use the ternary conditional with strings I will ask the user for some 
-// addiotional input
+// additional input
 // variable for their name
 var name = "";
 // variable for the time of day in 24 hour
