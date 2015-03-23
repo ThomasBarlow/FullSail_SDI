@@ -19,7 +19,7 @@ function playFloridaLottery(array) {
   		var found = false;
   		// Start a for loop iterating over the length of the array
   		for(var i = 0; i < array.length; i++) {
-  			// This if statement checks any of the current iterations of the array contain the random number it has stored
+  			// This if statement checks if any of the current iterations of the array contain the random number it has stored
 			if (array[i] == randomnumber) {
 				// If it does find a match found is set to false
 				found = true; 
@@ -50,7 +50,7 @@ function playPowerBallLottery(array) {
   		var found = false;
   		// Start a for loop iterating over the length of the array
   		for(var i = 0; i < array.length; i++) {
-  			// This if statement checks any of the current iterations of the array contain the random number it has stored
+  			// This if statement checks if any of the current iterations of the array contain the random number it has stored
 			if (array[i] == randomnumber) {
 				// If it does find a match found is set to false
 				found = true;
