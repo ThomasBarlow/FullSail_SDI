@@ -72,9 +72,32 @@ function playPowerBallLottery(array) {
 	// return the array so that it may be assigned into a variable		    
 	return array;
 }
+var userPrompt;
 
-playFloridaLottery(floridaLottery);
-playPowerBallLottery(powerBallLottery);
+userPrompt = prompt("Please enter either 'FL' for the Florida Lottery or 'PB' for the PowerBall").toLowerCase();
+while (userPrompt == "") {
+	userPrompt = prompt("Please enter a valid response 'FL' or 'PB'").toLowerCase();
+}
+
+/*
+while (userPrompt != 'fl' || userPrompt != "pb") {
+	userPrompt = prompt("Please enter only 'FL' or 'PB'");
+}
+*/
+
+if (userPrompt == 'fl') {
+	playFloridaLottery(floridaLottery);
+} else if (userPrompt == 'pb') {
+	playPowerBallLottery(powerBallLottery);
+}
+
+
+
+
+
+
+// playFloridaLottery(floridaLottery);
+// playPowerBallLottery(powerBallLottery);
 
 
 
