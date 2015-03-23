@@ -33,9 +33,6 @@ function playFloridaLottery(array) {
   				array[array.length]=randomnumber;
   			}
 	}
-	// Log to the console the results of the array
-	console.log("The Florida Lottery Numbers are: " + array[0] + " " + array[1] + " " + array[2] + " " + array[3] + " " +
-	        										  array[4] + " " + array[5]);
 	// return the array so that it may be assigned into a variable
 	return array;
 }
@@ -66,9 +63,6 @@ function playPowerBallLottery(array) {
 	}
 	// Fill the final power ball slot with a number from 1 - 35
 	array[5] = Math.ceil(Math.random() * 35);
-	// Log to the console the results of the array
-	console.log("The PowerBall Numbers are: " + array[0] + " " + array[1] + " " + array[2] + " " + array[3] + " " + 
-												array[4] + "\n" + "And the final PowerBall Number is: " + array[5]);
 	// return the array so that it may be assigned into a variable		    
 	return array;
 }
@@ -92,10 +86,17 @@ while (userPrompt != 'fl' || userPrompt != "pb") {
 if (userPrompt == 'fl') {
 	// Call the lottery function passing the floridaLottery array
 	playFloridaLottery(floridaLottery);
+	// Output the results to the console using the updated floridaLottery array
+	console.log("The Florida Lottery Numbers are: " + floridaLottery[0] + " " + floridaLottery[1] + " " + floridaLottery[2] + 
+												" " + floridaLottery[3] + " " + floridaLottery[4] + " " + floridaLottery[5]);
   // else if they want the PowerBall Lottery		
 } else if (userPrompt == 'pb') {
 	// call the powerBallLottery function passing the powerBallLottery array
 	playPowerBallLottery(powerBallLottery);
+	// Log to the console the results of the array
+	console.log("The PowerBall Numbers are: " + powerBallLottery[0] + " " + powerBallLottery[1] + " " + powerBallLottery[2] + 
+										  " " + powerBallLottery[3] + " " + powerBallLottery[4] + "\n" 
+										      + "And the final PowerBall Number is: " + powerBallLottery[5]);
 }
 
 
