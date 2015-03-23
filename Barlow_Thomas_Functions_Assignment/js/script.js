@@ -8,6 +8,8 @@ Function Assignment
 var floridaLottery = [];
 // Variable to hold the powerBallLottery numbers
 var powerBallLottery = [];
+// Create a variable for the user prompt
+var userPrompt;
 
 // Create a function for the Florida Lottery
 function playFloridaLottery(array) {
@@ -66,8 +68,7 @@ function playPowerBallLottery(array) {
 	// return the array so that it may be assigned into a variable		    
 	return array;
 }
-// Create a variable for the user prompt
-var userPrompt;
+
 // Prompt the user to enter a value for the userPrompt variable
 userPrompt = prompt("Please enter either 'FL' for the Florida Lottery or 'PB' for the PowerBall").toLowerCase();
 // While loop to check if the user entered an empty string
