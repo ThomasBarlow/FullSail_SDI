@@ -72,10 +72,13 @@ function playPowerBallLottery(array) {
 	// return the array so that it may be assigned into a variable		    
 	return array;
 }
+// Create a variable for the user prompt
 var userPrompt;
-
+// Prompt the user to enter a value for the userPrompt variable
 userPrompt = prompt("Please enter either 'FL' for the Florida Lottery or 'PB' for the PowerBall").toLowerCase();
+// While loop to check if the user entered an empty string
 while (userPrompt == "") {
+	// if an empty string is entered loop for a new response
 	userPrompt = prompt("Please enter a valid response 'FL' or 'PB'").toLowerCase();
 }
 
@@ -85,19 +88,16 @@ while (userPrompt != 'fl' || userPrompt != "pb") {
 }
 */
 
+// If loop to run the function if the user wants the Florida Lottery
 if (userPrompt == 'fl') {
+	// Call the lottery function passing the floridaLottery array
 	playFloridaLottery(floridaLottery);
+  // else if they want the PowerBall Lottery		
 } else if (userPrompt == 'pb') {
+	// call the powerBallLottery function passing the powerBallLottery array
 	playPowerBallLottery(powerBallLottery);
 }
 
-
-
-
-
-
-// playFloridaLottery(floridaLottery);
-// playPowerBallLottery(powerBallLottery);
 
 
 
