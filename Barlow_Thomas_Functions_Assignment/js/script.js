@@ -69,11 +69,11 @@ function playPowerBallLottery(array) {
 	return array;
 }
 
-// Prompt the user to enter a value for the userPrompt variable
+// Prompt the user to enter a value for the userPrompt variable converting the string to lowercase
 userPrompt = prompt("Please enter either 'FL' for the Florida Lottery or 'PB' for the PowerBall").toLowerCase();
 // While loop to check if the user entered an empty string
 while (userPrompt == "") {
-	// if an empty string is entered loop for a new response
+	// if an empty string is entered loop for a new response converting the string to lowercase
 	userPrompt = prompt("Please enter a valid response 'FL' or 'PB'").toLowerCase();
 }
 
